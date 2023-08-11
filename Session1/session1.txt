@@ -1,1 +1,49 @@
-step1
+Step 1:
+mkdir 'Abdullah Hatem'
+cd 'Abdullah Hatem'
+
+Step 2:
+mkdir Documents
+cd Documents
+touch file1.txt file2.txt file3.txt
+
+Step 3:
+cd ..
+touch .hidden_file
+ls -a
+
+Step 4:
+nano file1.txt
+[nano opens]
+sali ala elnabi :)
+[Ctrl + O]
+[Enter]
+[nano writes line]
+[Ctrl + X]
+[nano exits]
+cat file1.txt
+
+Step 5:
+cd Documents
+
+Step 6:
+mkdir ./-
+cd ./-
+
+Step 7:
+cp -R ./Documents ./My_Docs
+ls
+cd My_Docs/
+ls
+
+Step 8:
+cat .hidden_file
+
+Step 9:
+mv ./Documents/file2.txt ./Documents/file3.txt ./
+ls
+
+Step 10:
+cd ..
+rm -r 'Abdullah Hatem'
+ls
